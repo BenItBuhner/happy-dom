@@ -27,6 +27,6 @@ describe('Angular', () => {
 		const { bootstrapApplication } = await import('@angular/platform-browser');
 		const AngularComponent = await import('./AngularComponent.js');
 		await bootstrapApplication(AngularComponent.default);
-		assert.strictEqual(document.body.innerHTML, `<app ng-version="22.0.0"><div>Test</div></app>`);
+		assert.strictEqual(document.body.innerHTML, `<app ng-version="22.1.1"><div>Test</div></app>`);
 	});
 });
